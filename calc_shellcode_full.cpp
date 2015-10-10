@@ -2,6 +2,15 @@
 
 int calc_shellcode_full()
 {
+	// Work in progress
+	// Problem is that we need to:
+	// 1 - load kernel32.dll
+	// 2 - load user32.dll
+	// 3 - get proc address of keybd_event
+	// 4 - call the function
+	// This is hardwork and LONG shellcode!!
+	// I need to discover a way to find user32.dll address. Would be much easier!
+
 	HMODULE hMod = LoadLibraryA("user32.dll");
 	FARPROC addr = GetProcAddress(hMod, "keybd_event");
 
