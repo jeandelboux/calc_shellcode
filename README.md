@@ -1,6 +1,6 @@
-# calc_shellcode
+# calc shellcode
 
-Shellcode open calc.exe
+Shellcode that opens calc.exe (tested sucessfully on Windows 7)
 
 This shellcode uses the value in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AppKey\18 to launch APP_KEY_2 application. Normally this is configured to be calc.exe (on Windows 8 this is NOT configured by default).
 
@@ -13,4 +13,4 @@ There are 3 files:
 3) calc_shellcode_bin.cpp - this is the real shellcode.
 
 
-Jean D'Elboux Diogo
+Jean D'Elboux
