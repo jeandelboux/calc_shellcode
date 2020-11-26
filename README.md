@@ -12,5 +12,3 @@ There are 3 files:
 
 3) calc_shellcode_bin.cpp - this is the real shellcode.
 
-
-Jean D'Elboux
